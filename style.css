@@ -3,7 +3,7 @@
   --panel: #FFFFFF;
   --teal: #7e5cb6;
   --teal-dark: #190b70;
-  --mustard: #f8f057;
+  --mustard: #57f8b8;
   --ink: #23282B;
   --muted: #293936;
   --line: #E1E7E4;
@@ -146,7 +146,7 @@ th {
   font-weight: 500;
 }
 
-tbody tr:hover { background: #F7FAF9; }
+tbody tr:hover { background: #4cd9aa; }
 
 /* 연락처 */
 .contact ul {
@@ -166,7 +166,7 @@ tbody tr:hover { background: #F7FAF9; }
   color: var(--teal-dark);
   text-decoration: none;
   font-size: 0.9rem;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition: background 2.15s ease-out, color 1.15s ease-in;
 }
 
 .contact li a:hover {
@@ -190,7 +190,7 @@ tbody tr:hover { background: #F7FAF9; }
     padding: 24px; 
   }
   table, thead, tbody, th, td, tr { 
-    display: block; 
+    display: block;
   }
   thead { 
     display: none; 
